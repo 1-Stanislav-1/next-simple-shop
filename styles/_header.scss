@@ -1,0 +1,30 @@
+.Header {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	min-width: 900px;
+	padding: 30px;
+	background: grey;
+	box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.75);
+	color: white;
+
+	h1 {
+		font-weight: 100;
+	}
+
+	.Header-navigation {
+		margin-left: 200px;
+
+		a {
+			margin-right: 50px;
+			font-size: 20px;
+			text-decoration: none;
+			color: white;
+			transition: .3s;
+
+			&:hover {
+				text-shadow: 0 0 5px lightgrey;
+			}
+		}
+	}
+}
